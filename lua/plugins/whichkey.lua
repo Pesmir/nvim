@@ -2,7 +2,7 @@ return {
   "folke/which-key.nvim",
   optional = true,
   opts = {
-    defaults = {
+    spec = {
       ["<localLeader>l"] = { name = "+vimtex" },
     },
   },
