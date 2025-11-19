@@ -11,6 +11,12 @@ return {
         -- enable/disable tmux/zellij persistence if you use a mux
         -- mux = { backend = "zellij", enabled = false },
       },
+      -- Disable Copilot status polling to avoid nagging sign-in prompts
+      copilot = {
+        status = {
+          enabled = false,
+        },
+      },
     },
     keys = {
       -- Generic Sidekick CLI toggle
