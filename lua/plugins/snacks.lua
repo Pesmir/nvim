@@ -29,6 +29,9 @@ return {
       if not found then
         table.insert(dev, target)
       end
+
+      -- Confirming a project should cd into it and immediately open the files picker
+      projects.confirm = { "tcd", "picker_files" }
     end,
   },
 }
