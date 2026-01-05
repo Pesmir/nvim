@@ -17,7 +17,7 @@ require("lazy").setup({
     -- import/override with your plugins
     { import = "plugins" },
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  install = { colorscheme = { "gruvbox", "tokyonight", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {

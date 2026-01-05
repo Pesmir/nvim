@@ -10,7 +10,6 @@ return {
     dependencies = {
       "nvim-lua/plenary.nvim",
       "nvim-treesitter/nvim-treesitter",
-      "hrsh7th/nvim-cmp",
       "nvim-telescope/telescope.nvim",
       "ibhagwan/fzf-lua",
     },
@@ -19,15 +18,12 @@ return {
         workspaces = {
           {
             name = "Personal",
-            path = vim.fn.expand("~/smaXtec/Notes/"),
+            path = vim.fn.expand("~/smaXtec/johannes.pesenhofer/Notes"),
           },
         },
         notes_subdir = "00_Inbox",
         daily_notes = {
           folder = "10_Daily",
-        },
-        completion = {
-          nvim_cmp = true,
         },
         templates = {
           folder = "90_Templates",
